@@ -1,0 +1,40 @@
+[0.013s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.191s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.200s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.294s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.307s] -- Added test 'lint_cmake' to check CMake code style
+[0.308s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.313s] -- Added test 'xmllint' to check XML markup files
+[0.315s] -- Configuring done
+[0.318s] -- Generating done
+[0.321s] -- Build files have been written to: /home/intel/robotlaunha/build/articubot_one
+[0.324s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one
+[0.327s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.371s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.385s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one
+[0.394s] -- Install configuration: ""
+[0.394s] -- Execute custom install script
+[0.395s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.395s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/square.py
+[0.395s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/auto_mode.py
+[0.396s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/stm_to_odom.py
+[0.397s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/cmd_vel_to_stm.py
+[0.397s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.sh
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.bash
+[0.398s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.sh
+[0.399s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.399s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.399s] -- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.dsv
+[0.410s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.410s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.411s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.411s] -- Up-to-date symlink: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.xml
+[0.414s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one

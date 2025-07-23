@@ -1,0 +1,1 @@
+/home/intel/robotlaunha/src/articubot_one/src/follow_waypoints.py

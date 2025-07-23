@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/intel/robotlaunha/build/articubot_one
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/square.py
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/auto_mode.py
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/stm_to_odom.py
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/cmd_vel_to_stm.py
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.sh
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.dsv
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.bash
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.sh
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.zsh
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.dsv
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.dsv
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+-- Symlinking: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.xml

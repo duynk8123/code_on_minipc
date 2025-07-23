@@ -1,0 +1,5 @@
+[0.014s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.034s] [0mCMake Error: The source directory "/home/intel/robotlaunha/src/articubot_one" does not appear to contain CMakeLists.txt.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.035s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.038s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4

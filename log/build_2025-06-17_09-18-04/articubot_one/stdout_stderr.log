@@ -1,0 +1,5 @@
+-- Configuring incomplete, errors occurred!
+[31mCMake Error at CMakeLists.txt:2:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+[0m

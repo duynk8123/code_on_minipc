@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.058s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.072s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one
+[0.082s] -- Install configuration: ""
+[0.082s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.082s]   file INSTALL cannot find
+[0.083s]   "/home/intel/robotlaunha/src/articubot_one/meshes": No such file or
+[0.083s]   directory.
+[0.083s] 
+[0.083s] [0m
+[0.084s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one

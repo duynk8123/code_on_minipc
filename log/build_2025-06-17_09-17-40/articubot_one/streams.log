@@ -1,0 +1,7 @@
+[0.008s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one
+[0.029s] [31mCMake Error at CMakeLists.txt:2:
+[0.029s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.029s] 
+[0.030s] [0m
+[0.030s] -- Configuring incomplete, errors occurred!
+[0.033s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '1': /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one

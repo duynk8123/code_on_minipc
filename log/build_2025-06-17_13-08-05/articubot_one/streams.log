@@ -1,0 +1,64 @@
+[0.014s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.204s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.204s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.292s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.307s] -- Added test 'lint_cmake' to check CMake code style
+[0.308s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.314s] -- Added test 'xmllint' to check XML markup files
+[0.316s] -- Configuring done
+[0.320s] -- Generating done
+[0.323s] -- Build files have been written to: /home/intel/robotlaunha/build/articubot_one
+[0.348s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.360s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one
+[0.370s] -- Install configuration: ""
+[0.371s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes
+[0.371s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/base_link.STL
+[0.371s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/dc_bp_link.STL
+[0.371s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/lidar_link.STL
+[0.371s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/dc_bt_link.STL
+[0.372s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/cas_x_bp_link.STL
+[0.372s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/cas_y_bt_link.STL
+[0.372s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/cas_x_bt_link.STL
+[0.372s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/meshes/cas_y_bp_link.STL
+[0.373s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/config
+[0.373s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.373s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[0.373s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/config/slam.rviz
+[0.373s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[0.373s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/description
+[0.373s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.374s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[0.374s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/description/lidar.xacro
+[0.374s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.374s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch
+[0.374s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.375s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/worlds
+[0.375s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.376s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/worlds/map_test1.world
+[0.376s] -- Installing: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/square.py
+[0.376s] -- Installing: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/auto_mode.py
+[0.376s] -- Installing: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/stm_to_odom.py
+[0.376s] -- Installing: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/cmd_vel_to_stm.py
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.377s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.377s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.sh
+[0.377s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.bash
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.sh
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.378s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.378s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.dsv
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.378s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.xml
+[0.381s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one

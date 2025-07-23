@@ -1,0 +1,1 @@
+/home/intel/robotlaunha/src/articubot_one/src/auto_mode.py

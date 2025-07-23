@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<robot
+   name="articubot_one" xmlns:xacro="http://ros.org/wiki/xacro">
+    <link name="base_link">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+        <mesh filename="file://$(find articubot_one)/meshes/base_link.STL"/>
+        </geometry>
+        <material name="">
+        <color rgba="0 0.81961 0 1"/>
+        </material>
+    </visual>
+    <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+        <mesh filename="file://$(find articubot_one)/meshes/base_link.STL"/>
+        </geometry>
+    </collision>
+    </link>
+  <link name="base_footprint">
+  </link>
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="base_footprint"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  <link name="base_inertial_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="50.0"/>
+      <inertia
+        ixx="0.069571"
+        ixy="0"
+        ixz="0"
+        iyy="0.16483"
+        iyz="0"
+        izz="0.18794"/>
+    </inertial>
+  </link>
+  <joint name="base_fixed_inertia" type="fixed">
+    <parent link="base_link"/>
+    <child  link="base_inertial_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="-0.011792 0.00036684 -0.035501"
+        rpy="0 0 0" />
+      <mass
+        value="0.094107" />
+      <inertia
+        ixx="2.791E-05"
+        ixy="-5.2245E-08"
+        ixz="3.3553E-07"
+        iyy="4.4353E-05"
+        iyz="-2.5096E-08"
+        izz="6.9477E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/lidar_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/lidar_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="fixed">
+    <origin
+      xyz="-0.2604 4.9992E-05 0.062632"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="dc_bp_link">
+    <inertial>
+      <origin
+        xyz="6.5704E-12 5.1865E-12 -0.017529"
+        rpy="0 0 0" />
+      <mass
+        value="0.16621" />
+      <inertia
+        ixx="0.00034792"
+        ixy="-1.8125E-14"
+        ixz="-5.373E-15"
+        iyy="0.00034792"
+        iyz="-3.4462E-15"
+        izz="0.00065193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/dc_bp_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/dc_bp_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="dc_bp_joint"
+    type="continuous">
+    <origin
+      xyz="-0.2605 -0.3094 -0.31619"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="dc_bp_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+  <link
+    name="dc_bt_link">
+    <inertial>
+      <origin
+        xyz="-6.5702E-12 5.1864E-12 0.017529"
+        rpy="0 0 0" />
+      <mass
+        value="0.16621" />
+      <inertia
+        ixx="0.00034792"
+        ixy="1.8125E-14"
+        ixz="-5.3729E-15"
+        iyy="0.00034792"
+        iyz="3.4457E-15"
+        izz="0.00065193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/dc_bt_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/dc_bt_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="dc_bt_joint"
+    type="continuous">
+    <origin
+      xyz="-0.2605 0.3094 -0.331"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="dc_bt_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+  <link
+    name="cas_y_bt_link">
+    <inertial>
+      <origin
+        xyz="-0.0014432 -2.4837E-08 -0.013917"
+        rpy="0 0 0" />
+      <mass
+        value="0.010438" />
+      <inertia
+        ixx="4.7221E-06"
+        ixy="1.3127E-11"
+        ixz="-4.508E-07"
+        iyy="3.8036E-06"
+        iyz="1.4251E-11"
+        izz="4.4617E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_y_bt_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_y_bt_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="cas_y_bt_joint"
+    type="continuous">
+    <origin
+      xyz="0.3663 0.185 -0.339"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="cas_y_bt_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+  <link
+    name="cas_x_bt_link">
+    <inertial>
+      <origin
+        xyz="-5.5511E-17 5.5511E-17 0.02"
+        rpy="0 0 0" />
+      <mass
+        value="0.039208" />
+      <inertia
+        ixx="8.412E-06"
+        ixy="2.1683E-21"
+        ixz="-1.1236E-21"
+        iyy="8.412E-06"
+        iyz="-2.9922E-22"
+        izz="1.363E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_x_bt_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_x_bt_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="cas_x_bt_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0085977 0.02 -0.039345"
+      rpy="1.5708 0 0" />
+    <parent
+      link="cas_y_bt_link" />
+    <child
+      link="cas_x_bt_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+  <link
+    name="cas_y_bp_link">
+    <inertial>
+      <origin
+        xyz="-0.0014432 -2.4837E-08 -0.013917"
+        rpy="0 0 0" />
+      <mass
+        value="0.010438" />
+      <inertia
+        ixx="4.7221E-06"
+        ixy="1.3127E-11"
+        ixz="-4.508E-07"
+        iyy="3.8036E-06"
+        iyz="1.4251E-11"
+        izz="4.4617E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_y_bp_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_y_bp_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="cas_y_bp_joint"
+    type="continuous">
+    <origin
+      xyz="0.3663 -0.185 -0.339"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="cas_y_bp_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+  <link
+    name="cas_x_bp_link">
+    <inertial>
+      <origin
+        xyz="0 5.5511E-17 -0.02"
+        rpy="0 0 0" />
+      <mass
+        value="0.039208" />
+      <inertia
+        ixx="8.412E-06"
+        ixy="2.1683E-21"
+        ixz="-1.1236E-21"
+        iyy="8.412E-06"
+        iyz="-2.9922E-22"
+        izz="1.363E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_x_bp_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find articubot_one)/meshes/cas_x_bp_link.STL" />
+      </geometry>
+
+    </collision>
+  </link>
+  <joint
+    name="cas_x_bp_joint"
+    type="continuous">
+    <origin
+      xyz="-0.0085977 -0.02 -0.039345"
+      rpy="1.5708 0 0" />
+    <parent
+      link="cas_y_bp_link" />
+    <child
+      link="cas_x_bp_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="0.1"
+      velocity="20" />
+  </joint>
+</robot>

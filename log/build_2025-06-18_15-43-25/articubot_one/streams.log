@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.209s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.305s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.315s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.317s] -- Added test 'lint_cmake' to check CMake code style
+[0.318s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.323s] -- Added test 'xmllint' to check XML markup files
+[0.324s] -- Configuring done
+[0.328s] -- Generating done
+[0.330s] -- Build files have been written to: /home/intel/robotlaunha/build/articubot_one
+[0.356s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/intel/robotlaunha/build/articubot_one -- -j4 -l4
+[0.368s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one
+[0.377s] -- Install configuration: ""
+[0.377s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/square.py
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/auto_mode.py
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/stm_to_odom.py
+[0.378s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/lib/articubot_one/cmd_vel_to_stm.py
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.379s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.sh
+[0.379s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.bash
+[0.379s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.sh
+[0.380s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.380s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.380s] -- Installing: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.dsv
+[0.380s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.380s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.380s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.380s] -- Up-to-date: /home/intel/robotlaunha/install/articubot_one/share/articubot_one/package.xml
+[0.381s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/intel/robotlaunha/build/articubot_one

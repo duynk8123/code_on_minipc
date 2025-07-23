@@ -1,0 +1,33 @@
+[0.013s] Invoking command in '/home/intel/robotlaunha/build/articubot_one': /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one
+[0.120s] -- The C compiler identification is GNU 11.4.0
+[0.231s] -- The CXX compiler identification is GNU 11.4.0
+[0.244s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.388s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.397s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.517s] -- Detecting CXX compile features - done
+[0.528s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[0.528s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.529s]   has asked CMake to find a package configuration file provided by
+[0.529s]   "ament_cmake", but CMake did not find one.
+[0.529s] 
+[0.529s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.530s]   any of the following names:
+[0.530s] 
+[0.530s]     ament_cmakeConfig.cmake
+[0.530s]     ament_cmake-config.cmake
+[0.530s] 
+[0.531s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.531s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.531s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.531s]   has been installed.
+[0.531s] 
+[0.532s] [0m
+[0.532s] -- Configuring incomplete, errors occurred!
+[0.532s] See also "/home/intel/robotlaunha/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[0.534s] Invoked command in '/home/intel/robotlaunha/build/articubot_one' returned '1': /usr/bin/cmake /home/intel/robotlaunha/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/intel/robotlaunha/install/articubot_one
